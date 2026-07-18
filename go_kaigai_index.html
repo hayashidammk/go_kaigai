@@ -1475,6 +1475,64 @@ body {
   }
 }
 
+
+/* ===== Larger text for mobile readability ===== */
+body{font-size:18px;line-height:1.9}
+.container{width:calc(100% - 36px)}
+.logo .go{font-size:34px}.logo .kaigai{font-size:32px}
+.eyebrow{font-size:14px;margin-bottom:16px}
+.hero h1{font-size:48px;line-height:1.2}
+.hero-text{font-size:19px;line-height:1.9}
+.button{min-height:60px;padding:0 24px;font-size:18px}
+.hero-notes{font-size:14px;line-height:1.7}
+.card-top,.story-label{font-size:13px}
+.main-card h3{font-size:29px}
+.mini-list span{font-size:13px;padding:7px 11px}
+.story-card p{font-size:18px}
+.story-card small{font-size:14px}
+.tip-card strong{font-size:17px}.tip-card span{font-size:14px}
+.pain-grid strong{font-size:19px}.pain-grid span{font-size:15px}
+.section{padding:82px 0}.section-heading{margin-bottom:38px}
+.section-heading h2,.answer h2,.promise h2,.line h2{font-size:40px;line-height:1.4}
+.section-heading>p:last-child,.answer-grid>div>p,.promise-copy>p,.line-copy>p{font-size:18px;line-height:1.9}
+.worry-grid article{padding:28px 24px}
+.worry-grid h3{font-size:24px}.worry-grid p{font-size:18px;line-height:1.85}
+.answer-flow div{padding:24px}.answer-flow span{font-size:16px}
+.answer-flow strong{font-size:25px}.answer-flow p{font-size:17px;line-height:1.7}
+.category{font-size:14px}
+.content-card h3{font-size:29px}.content-card.featured h3{font-size:33px}
+.content-card p,.featured li{font-size:18px;line-height:1.85}
+.featured li{padding:10px 13px}
+.story-grid p{font-size:18px;line-height:1.9}.story-grid footer{font-size:15px}
+.promise-points p{font-size:17px}
+.benefits span{font-size:15px;padding:8px 12px}
+.social-actions .button{min-height:58px;font-size:17px}
+.line-copy small{font-size:14px}
+.footer p,.footer-links,.copyright{font-size:15px}
+.mobile-sticky-cta a{min-height:56px;font-size:17px}
+
+@media(max-width:430px){
+  .container{width:calc(100% - 28px)}
+  .hero{padding:48px 0 56px}
+  .hero h1{font-size:43px}
+  .hero-text{font-size:18px}
+  .section-heading h2,.answer h2,.promise h2,.line h2{font-size:36px}
+  .main-card,.story-card,.tip-card,.worry-grid article,.content-card,.answer-flow div,.story-grid blockquote{padding:24px}
+  .main-card h3{font-size:27px}
+  .worry-grid h3,.content-card h3{font-size:25px}
+  .worry-grid p,.content-card p,.story-grid p,.answer-flow p,.promise-points p{font-size:17px}
+  .pain-grid strong{font-size:18px}.pain-grid span{font-size:14px}
+  .social-actions{grid-template-columns:1fr}
+  .social-actions .line-button{grid-column:auto}
+  body::after{height:92px}
+}
+@media(max-width:360px){
+  body{font-size:17px}
+  .hero h1{font-size:39px}
+  .section-heading h2,.answer h2,.promise h2,.line h2{font-size:33px}
+  .mobile-sticky-cta a{font-size:15px}
+}
+
 </style>
 </head>
 <body>
